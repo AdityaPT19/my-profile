@@ -11,7 +11,7 @@ h1,h2{
 }
 
 h1 {
-  color:#351E29 ;
+  color:#000000 ;
   font-size:40px;
   font-weight: bolder;
   line-height: 1.6;
@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-  color:#540B0E;
+  color:#303f9f;
   font-weight: bold;
   font-size: 32px;
 
@@ -83,5 +83,29 @@ a:hover{
 }
 #introduction p {
 margin-bottom: 30px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
 
